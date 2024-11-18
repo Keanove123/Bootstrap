@@ -1,0 +1,527 @@
+<!DOCTYPE html><!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Fri Nov 15 2024 08:21:08 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.bit-academy.nl" data-wf-page="64b161d5eae159d5a42f001c" data-wf-site="6433e2279fd61134d70bd465" lang="en"><head><meta charset="utf-8"/><title>Over Ons</title><meta content="Bij de Bit Academy leiden we de programmeurs van de toekomst op door middel van peer-to-peer onderwijs, leren door te doen en autonomie." name="description"/><meta content="Over Ons" property="og:title"/><meta content="Bij de Bit Academy leiden we de programmeurs van de toekomst op door middel van peer-to-peer onderwijs, leren door te doen en autonomie." property="og:description"/><meta content="Over Ons" property="twitter:title"/><meta content="Bij de Bit Academy leiden we de programmeurs van de toekomst op door middel van peer-to-peer onderwijs, leren door te doen en autonomie." property="twitter:description"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="PJ8w8aDlQoD5YyNp8Yzoc3kVG_dsIaN7wlkT3t2Tpnc" name="google-site-verification"/><meta content="Webflow" name="generator"/><link href="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/css/bit-academy-v3.webflow.f53bea116.min.css" rel="stylesheet" type="text/css"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Inter:100,200,300,regular,500,600,700,800,900","Inter Tight:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/643b387d4581275fb1daa5b6_63c1328bf02e2dcf52767cdc_BA_Favicon.svg" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/643b3896fa6830ab31c4d663_63c1328fa12dc3025cfbe5b8_BA%20Webclip.png" rel="apple-touch-icon"/><script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+<script src="https://unpkg.com/split-type"></script>
+
+<!-- Hotjar Tracking Code for https://www.bit-academy.nl -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3754001,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P6NTCXZ');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+<script>
+    Weglot.initialize({
+        api_key: 'wg_bbdfa6f54c4a1e8c37c96aea573f2d3b6'
+    });
+</script>
+<style>
+  /************ ADD YOUR VALUES BELOW ************/
+  :root {
+    /* ----------- Colors ----------- */
+		--list-bg-color: #fff;
+    --list-text-color: black; /* Use "inherit" to take on parent text color */
+    --select-field-arrow-color: #fff; /* This is the select field arrow color */
+    --border-color-active: black; /* Active State */
+    --border-color-hover: black; /* Select Field could be the same as your form field border color */
+    --list-item-bg-color: #ffffff10; /* Select Field Hover/Focus State */
+
+    /* ----------- Spacing ----------- */
+    --select-field-padding-left: 16px; /* Match the padding values for your form fields */
+    --select-field-padding-right: 20px; /* Match the padding values for your form fields */
+    --list-padding-top-bottom: 0px; /* This is the top and bottom padding for the dropdown list */
+    --list-max-height: auto; /* You can set this to "Auto" as well */
+    --list-item-padding-left: 16px; 
+    --list-item-padding-right: 25px;
+    --list-item-min-height: 48px; /* This is the height of each list item in the dropdown */
+    --list-item-line-height: 48px; /* This is the height of each list item in the dropdown */
+
+             /* ^^^  Make sure both "line-height" and "min-height" are the same! ^^^  */
+  }
+  /************ END OF CUSTOM VALUES ************/
+
+
+
+  .nice-select {
+  
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    clear: both;
+    padding-left: var(--select-field-padding-left);
+    padding-right: var(--select-field-padding-right);
+    position: relative;
+    text-align: left !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    white-space: nowrap; 
+  }
+
+
+  .nice-select:hover {
+    border-color: var(--border-color-hover); 
+  }
+
+
+  .nice-select:active, .nice-select.open, .nice-select:focus {
+    border-color: var(--border-color-active);
+  }
+
+
+  .nice-select:after {
+    border-bottom: 2px solid var(--select-field-arrow-color);
+    border-right: 2px solid var(--select-field-arrow-color);
+    content: '';
+    display: block;
+    height: 5px;
+    margin-top: -4px;
+    pointer-events: none;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    -webkit-transform-origin: 66% 66%;
+    -ms-transform-origin: 66% 66%;
+    transform-origin: 66% 66%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    width: 5px; 
+  }
+
+
+  .nice-select.open:after {
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg); 
+  }
+
+
+  .nice-select.open .list {
+  width: 100%;
+  border: 1px solid var(--list-text-color);
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transform: scale(1) translateY(0);
+    -ms-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0); 
+  }
+
+@media screen and (min-width: 480px) {
+
+.nice-select.open .list {
+min-width: 400px;
+margin-left: -1px;
+  }
+}
+
+.nice-select.open .list li {
+border-bottom: 1px solid var(--list-text-color);
+}
+
+.nice-select.open .list li:last-child {
+border-bottom: none;
+}
+
+@media screen and (max-width: 480px) {
+
+.nice-select.open .list {
+min-width: 288px;
+margin-left: -1px;
+  }
+  .nice-select.open .list li {
+  padding-top: 0px;
+    padding-bottom: 0px;}
+}
+
+
+
+  .nice-select.disabled {
+    border-color: #ededed;
+    color: #999;
+    pointer-events: none; 
+  }
+
+
+  .nice-select.disabled:after {
+    border-color: #cccccc; 
+  }
+
+
+  .nice-select.wide {
+    width: 100%; 
+  }
+
+
+  .nice-select.wide .list {
+    left: 0 !important;
+    right: 0 !important; 
+  }
+
+
+  .nice-select.right {
+    float: right; 
+  }
+
+
+  .nice-select.right .list {
+    left: auto;
+    right: 0; 
+  }
+
+
+  .nice-select.small {
+    font-size: 12px;
+    height: 36px;
+    line-height: 34px; 
+  }
+
+
+  .nice-select.small:after {
+    height: 4px;
+    width: 4px; 
+  }
+
+
+  .nice-select.small .option {
+    line-height: 34px;
+    min-height: 34px; 
+  }
+
+
+  .nice-select .list {
+    background-color: var(--list-bg-color);
+    color: var(--list-text-color);
+    border-radius: 5px;
+    box-shadow: 0 7px 20px 0px rgba(68, 68, 68, 0.11);
+    border-color: 3px solid #ededed;
+    box-sizing: border-box;
+    margin-top: 4px;
+    opacity: 0;
+    overflow: hidden;
+    padding: var(--list-padding-top-bottom) 0px;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: var(--list-max-height);
+    -webkit-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transform: scale(0.75) translateY(-21px);
+    -ms-transform: scale(0.75) translateY(-21px);
+    transform: scale(0.75) translateY(-21px);
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    z-index: 9; 
+  }
+
+
+  .nice-select .list:hover .option:not(:hover) {
+    background-color: transparent !important; 
+  }
+
+
+  .nice-select .option {
+    cursor: pointer;
+    font-weight: 400;
+    line-height: var(--list-item-line-height);
+    list-style: none;
+    min-height: var(--list-item-min-height);
+    outline: none;
+    padding-left: var(--list-item-padding-left);
+    padding-right: var(--list-item-padding-right);
+    text-align: left;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+
+  .nice-select .option:first-child {
+    display: none;
+  }
+
+  span.current {
+    color: #fff;
+  }
+
+  .nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus {
+    background-color: var(--list-item-bg-color);
+  }
+
+  .nice-select .option.selected {
+    font-weight: bold; 
+  }
+
+  .nice-select .option.disabled {
+    background-color: transparent;
+    color: #999;
+    cursor: default; 
+  }
+
+  .no-csspointerevents .nice-select .list {
+  display: none; 
+  }
+
+  .no-csspointerevents .nice-select.open .list {
+  display: block; 
+  }
+  
+  
+  .nice-select.text-field.is--floating.w-select.open .list {
+top: auto;
+    bottom: 100%;
+    left: 0;
+  }
+
+  
+  .line_wrap{
+  overflow: hidden;
+}
+</style>
+</head><body><div data-w-id="b205cf72-6b5f-7c6b-e985-bcc2e449c36a" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav"><div class="menu_top_space"></div><div class="container--old nav w-container"><a href="/" class="brand is--white w-nav-brand"><div class="logo is--desktop is--white w-embed"><svg width="110" height="48" viewBox="0 0 110 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1169_5721)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.8339 6.97712C9.88234 6.39331 8.75646 6.10322 7.44899 6.10322C6.55918 6.10322 5.742 6.29903 4.9902 6.69065C4.24204 7.08228 3.66457 7.60081 3.26506 8.24264V0.80542H0.733641V19.4402H3.26869V17.4821C3.6682 18.142 4.24567 18.6714 4.99383 19.0594C5.742 19.4511 6.55191 19.6469 7.42356 19.6469C8.7492 19.6469 9.88234 19.3604 10.823 18.7838C11.7637 18.2109 12.4828 17.4095 12.9803 16.3833C13.4779 15.3571 13.7249 14.1895 13.7249 12.8841C13.7249 11.5787 13.4815 10.3929 12.9912 9.374C12.5046 8.35505 11.7854 7.5573 10.8339 6.97349V6.97712ZM11.1608 16.8547H3.26869V8.94974H11.1608V16.8547ZM18.7695 6.31353H16.2345V19.4402H18.7695V6.31353ZM23.5018 2.18697H26.0369H26.0405V6.3099H29.9085V8.50372H26.0405V17.1484H29.9085V19.4438H27.8419C26.5163 19.4438 25.4631 19.0594 24.6786 18.2943C23.8941 17.5292 23.5018 16.474 23.5018 15.1359V8.50734H20.8106V6.31353H23.5018V2.18697ZM22.1945 30.7247C23.0843 30.7247 23.8615 30.9677 24.5334 31.4572C25.2053 31.9431 25.6012 32.5632 25.721 33.3102H28.2561C28.1326 32.3347 27.7839 31.4862 27.2101 30.7646C26.6363 30.043 25.9026 29.4846 25.0128 29.093C24.123 28.7014 23.1642 28.5055 22.1364 28.5055C20.7962 28.5055 19.6304 28.8138 18.6461 29.4338C17.6619 30.0503 16.9065 30.8734 16.3835 31.8996C15.8605 32.9258 15.599 34.0572 15.599 35.2937C15.599 36.5302 15.8605 37.6616 16.3835 38.6878C16.9065 39.714 17.6583 40.5371 18.6461 41.1535C19.634 41.77 20.7926 42.0818 22.1364 42.0818C23.7925 42.0818 25.1726 41.6539 26.2803 40.8018C27.3881 39.9497 28.0454 38.8255 28.2525 37.4331H25.7428C25.5322 38.1801 25.1109 38.7712 24.4753 39.2063C23.8397 39.6414 23.077 39.859 22.1872 39.859C20.9342 39.859 19.9609 39.4275 19.2708 38.5681C18.5808 37.7051 18.2394 36.6136 18.2394 35.2937C18.2394 33.9738 18.5808 32.8569 19.2599 32.0048C19.9391 31.1526 20.9161 30.7247 22.1872 30.7247H22.1945ZM8.71651 29.0821C9.47557 29.4483 10.0639 29.9197 10.4816 30.4927V30.489V28.7412H13.0167V41.8679H10.4816V40.0947C10.1656 40.6676 9.62448 41.1426 8.84726 41.5161C8.07004 41.8896 7.23107 42.0782 6.3231 42.0782C5.0011 42.0782 3.86432 41.7881 2.91277 41.2043C1.96485 40.6205 1.2421 39.8227 0.744535 38.8038C0.246968 37.7848 0 36.6426 0 35.3191C0 33.9955 0.2506 32.8279 0.744535 31.8089C1.23847 30.79 1.96121 29.9922 2.91277 29.4084C3.86069 28.8246 4.9902 28.5345 6.29768 28.5345C7.15117 28.5345 7.95745 28.7158 8.71651 29.0821ZM2.56047 39.2897H10.507V31.3811H2.56047V39.2897ZM106.915 28.7159L103.439 38.5826L99.9891 28.7159H97.3742L102.263 42.0021L100.483 47.1947H102.916L104.903 41.4001L109.53 28.7159H106.915ZM56.0144 30.6681C55.6151 30.0254 55.0388 29.5124 54.2929 29.122C53.5447 28.7304 52.7239 28.5346 51.8341 28.5346C50.5267 28.5346 49.4044 28.8246 48.4637 29.4085C47.5231 29.9923 46.804 30.7973 46.3064 31.8235C45.8088 32.8497 45.5619 34.0173 45.5619 35.3227C45.5619 36.6281 45.8088 37.7885 46.3064 38.8074C46.804 39.8264 47.5267 40.6241 48.4746 41.2079C49.4262 41.7917 50.5521 42.0818 51.8596 42.0818C52.7312 42.0818 53.5411 41.886 54.2893 41.4944C55.0374 41.1028 55.6149 40.577 56.0144 39.917V41.8751H58.5495V23.2368H56.0144V30.6681ZM48.1223 39.2861H56.0181V31.3775H48.1223V39.2861ZM91.3055 28.5345H91.0985C90.245 28.5527 89.4642 28.734 88.7596 29.0821C88.055 29.4302 87.4739 29.8907 87.0199 30.4636C86.5659 29.8907 85.9848 29.4266 85.2694 29.0821C84.5539 28.734 83.7694 28.5527 82.9159 28.5345H82.5745C81.8082 28.5527 81.1036 28.734 80.4571 29.0821C79.8106 29.4302 79.2913 29.8907 78.8881 30.4636V28.7412H76.3531V41.8679H78.8881V31.3484H84.8735V41.8679H87.3831V31.3484H93.3939V41.8679H95.9289V33.5169C95.9289 32.0048 95.5112 30.7936 94.6759 29.8907C93.8406 28.9842 92.7147 28.5345 91.3055 28.5345ZM70.1098 39.3115C70.7199 38.9126 71.1194 38.336 71.3119 37.589L71.3046 37.5854H73.8397C73.5964 38.9452 72.9245 40.0294 71.8276 40.8489C70.7308 41.6648 69.3689 42.0746 67.749 42.0746C66.4234 42.0746 65.2612 41.7627 64.2588 41.1354C63.2564 40.5081 62.4864 39.6741 61.9453 38.6297C61.4041 37.5854 61.1354 36.4468 61.1354 35.2103C61.1354 33.9738 61.3896 32.8497 61.8944 31.8307C62.4029 30.8154 63.1329 30.0068 64.0917 29.4048C65.0506 28.8065 66.1873 28.5055 67.4912 28.5055C68.795 28.5055 69.9209 28.7884 70.8616 29.3541C71.8022 29.9197 72.5177 30.674 73.0044 31.624C73.4947 32.5704 73.738 33.6111 73.738 34.7425C73.738 35.0906 73.7235 35.4242 73.6872 35.7361H63.6232C63.7285 36.9907 64.1571 37.9988 64.9053 38.7639C65.6571 39.529 66.605 39.9134 67.7563 39.9134C68.7151 39.9134 69.4996 39.7103 70.1098 39.3115ZM67.4984 30.5434C66.467 30.5434 65.628 30.8263 64.9743 31.3919H64.9779C64.3242 31.9576 63.9029 32.788 63.7104 33.8831H71.1848C71.0976 32.875 70.7344 32.0664 70.088 31.4572C69.4415 30.848 68.5771 30.5434 67.4984 30.5434ZM40.4118 30.4927C39.9941 29.9197 39.4057 29.4483 38.6467 29.0821C37.8876 28.7158 37.0813 28.5345 36.2278 28.5345C34.9204 28.5345 33.7908 28.8246 32.8429 29.4084C31.8914 29.9922 31.1686 30.79 30.6747 31.8089C30.1808 32.8279 29.9302 33.9955 29.9302 35.3191C29.9302 36.6426 30.1771 37.7848 30.6747 38.8038C31.1723 39.8227 31.895 40.6205 32.8429 41.2043C33.7945 41.7881 34.9313 42.0782 36.2533 42.0782C37.1612 42.0782 38.0002 41.8896 38.7774 41.5161C39.5546 41.1426 40.0958 40.6676 40.4118 40.0947V41.8679H42.9468V28.7412H40.4118V30.489V30.4927ZM40.4372 39.2897H32.4906V31.3811H40.4372V39.2897ZM16.2307 0.830804H18.7621V3.35823H16.2307V0.830804Z" fill="currentcolor"/>
+</g>
+<defs>
+<clipPath id="clip0_1169_5721">
+<rect width="109.53" height="46.3893" fill="white" transform="translate(0 0.80542)"/>
+</clipPath>
+</defs>
+</svg></div><div class="logo is--mobile is--white w-embed"><svg width="148" height="24" viewBox="0 0 148 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1169_1021)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.6896 6.1717C9.73806 5.58789 8.61218 5.2978 7.3047 5.2978C6.41489 5.2978 5.59772 5.49361 4.84592 5.88523C4.09775 6.27686 3.52028 6.79539 3.12078 7.43722V0H0.589355V18.6348H3.12441V16.6766C3.52391 17.3366 4.10138 17.866 4.84955 18.254C5.59772 18.6456 6.40763 18.8414 7.27928 18.8414C8.60491 18.8414 9.73806 18.555 10.6787 17.9784C11.6194 17.4055 12.3385 16.6041 12.8361 15.5779C13.3336 14.5517 13.5806 13.3841 13.5806 12.0787C13.5806 10.7733 13.3373 9.58753 12.8469 8.56858C12.3603 7.54963 11.6412 6.75188 10.6896 6.16807V6.1717ZM11.0165 16.0493H3.12441V8.14432H11.0165V16.0493ZM18.6252 5.50811H16.0902V18.6348H18.6252V5.50811ZM23.3576 1.38155H25.8926H25.8963V5.50448H29.7642V7.6983H25.8963V16.343H29.7642V18.6384H27.6977C26.372 18.6384 25.3188 18.254 24.5343 17.4889C23.7498 16.7238 23.3576 15.6686 23.3576 14.3305V7.70192H20.6664V5.50811H23.3576V1.38155ZM60.3857 7.488C61.2755 7.488 62.0527 7.73095 62.7246 8.22048C63.3965 8.70638 63.7924 9.32645 63.9122 10.0734H66.4473C66.3238 9.09801 65.9751 8.24949 65.4013 7.52789C64.8275 6.80628 64.0938 6.24786 63.204 5.85623C62.3142 5.46461 61.3554 5.2688 60.3276 5.2688C58.9874 5.2688 57.8216 5.57702 56.8373 6.19709C55.8531 6.81353 55.0977 7.63667 54.5747 8.66287C54.0517 9.68907 53.7902 10.8204 53.7902 12.0569C53.7902 13.2935 54.0517 14.4248 54.5747 15.451C55.0977 16.4772 55.8495 17.3003 56.8373 17.9168C57.8252 18.5332 58.9838 18.8451 60.3276 18.8451C61.9837 18.8451 63.3638 18.4172 64.4715 17.5651C65.5793 16.7129 66.2366 15.5888 66.4437 14.1964H63.934C63.7234 14.9434 63.3021 15.5344 62.6665 15.9696C62.0309 16.4047 61.2682 16.6223 60.3784 16.6223C59.1254 16.6223 58.1521 16.1907 57.462 15.3313C56.772 14.4683 56.4306 13.3769 56.4306 12.0569C56.4306 10.737 56.772 9.62017 57.4511 8.76803C58.1303 7.91588 59.1073 7.488 60.3784 7.488H60.3857ZM46.9078 5.84533C47.6668 6.21157 48.2552 6.68297 48.6729 7.2559V7.25227V5.50447H51.2079V18.6311H48.6729V16.8579C48.3569 17.4309 47.8158 17.9059 47.0385 18.2794C46.2613 18.6529 45.4223 18.8414 44.5144 18.8414C43.1924 18.8414 42.0556 18.5513 41.104 17.9675C40.1561 17.3837 39.4334 16.586 38.9358 15.567C38.4382 14.5481 38.1913 13.4058 38.1913 12.0823C38.1913 10.7588 38.4419 9.59113 38.9358 8.57219C39.4297 7.55324 40.1525 6.75549 41.104 6.17168C42.052 5.58787 43.1815 5.29778 44.489 5.29778C45.3424 5.29778 46.1487 5.47909 46.9078 5.84533ZM40.7518 16.0529H48.6983V8.1443H40.7518V16.0529ZM145.107 5.47911L141.631 15.3458L138.181 5.47911H135.566L140.454 18.7653L138.674 23.9579H141.108L143.094 18.1634L147.721 5.47911H145.107ZM94.2058 7.43135C93.8064 6.78865 93.2302 6.27567 92.4843 5.88523C91.7361 5.49361 90.9153 5.2978 90.0255 5.2978C88.718 5.2978 87.5958 5.58789 86.6551 6.1717C85.7144 6.75551 84.9953 7.56051 84.4978 8.58671C84.0002 9.61291 83.7532 10.7805 83.7532 12.0859C83.7532 13.3914 84.0002 14.5517 84.4978 15.5707C84.9953 16.5896 85.7181 17.3874 86.666 17.9712C87.6175 18.555 88.7434 18.8451 90.0509 18.8451C90.9226 18.8451 91.7325 18.6493 92.4806 18.2576C93.2288 17.866 93.8063 17.3402 94.2058 16.6803V18.6384H96.7408V0H94.2058V7.43135ZM86.3137 16.0493H94.2094V8.14069H86.3137V16.0493ZM129.497 5.29778H129.29C128.436 5.31591 127.655 5.49722 126.951 5.84533C126.246 6.19344 125.665 6.65396 125.211 7.22689C124.757 6.65396 124.176 6.18981 123.461 5.84533C122.745 5.49722 121.961 5.31591 121.107 5.29778H120.766C119.999 5.31591 119.295 5.49722 118.648 5.84533C118.002 6.19344 117.482 6.65396 117.079 7.22689V5.50447H114.544V18.6311H117.079V8.11167H123.065V18.6311H125.574V8.11167H131.585V18.6311H134.12V10.2801C134.12 8.768 133.702 7.55687 132.867 6.65396C132.032 5.74742 130.906 5.29778 129.497 5.29778ZM108.301 16.0747C108.911 15.6758 109.311 15.0993 109.503 14.3523L109.496 14.3487H112.031C111.788 15.7085 111.116 16.7927 110.019 17.6122C108.922 18.4281 107.56 18.8378 105.94 18.8378C104.615 18.8378 103.452 18.526 102.45 17.8987C101.448 17.2713 100.678 16.4373 100.137 15.393C99.5954 14.3487 99.3267 13.2101 99.3267 11.9735C99.3267 10.737 99.5809 9.61292 100.086 8.59397C100.594 7.57865 101.324 6.77002 102.283 6.16808C103.242 5.56977 104.379 5.2688 105.682 5.2688C106.986 5.2688 108.112 5.55164 109.053 6.11732C109.993 6.683 110.709 7.43723 111.196 8.38728C111.686 9.3337 111.929 10.3744 111.929 11.5058C111.929 11.8539 111.915 12.1875 111.878 12.4993H101.814C101.92 13.754 102.348 14.762 103.097 15.5272C103.848 16.2923 104.796 16.6766 105.948 16.6766C106.906 16.6766 107.691 16.4736 108.301 16.0747ZM105.69 7.30669C104.658 7.30669 103.819 7.58953 103.166 8.15521H103.169C102.515 8.72089 102.094 9.55128 101.902 10.6464H109.376C109.289 9.6383 108.926 8.82967 108.279 8.22048C107.633 7.61129 106.768 7.30669 105.69 7.30669ZM78.6032 7.2559C78.1855 6.68297 77.5972 6.21157 76.8381 5.84533C76.079 5.47909 75.2728 5.29778 74.4193 5.29778C73.1118 5.29778 71.9823 5.58787 71.0344 6.17168C70.0828 6.75549 69.3601 7.55324 68.8661 8.57219C68.3722 9.59113 68.1216 10.7588 68.1216 12.0823C68.1216 13.4058 68.3686 14.5481 68.8661 15.567C69.3637 16.586 70.0864 17.3837 71.0344 17.9675C71.9859 18.5513 73.1227 18.8414 74.4447 18.8414C75.3527 18.8414 76.1916 18.6529 76.9689 18.2794C77.7461 17.9059 78.2872 17.4309 78.6032 16.8579V18.6311H81.1383V5.50447H78.6032V7.25227V7.2559ZM78.6286 16.0529H70.6821V8.1443H78.6286V16.0529ZM16.0866 0.0253841H18.618V2.55281H16.0866V0.0253841Z" fill="currentcolor"/>
+</g>
+<defs>
+<clipPath id="clip0_1169_1021">
+<rect width="147.221" height="24" fill="white" transform="translate(0.5)"/>
+</clipPath>
+</defs>
+</svg></div></a><nav role="navigation" class="nav-menu w-nav-menu"><div class="menu_items__wrapper"><div class="menu_link__wrapper is--white"><div data-hover="true" data-delay="0" class="dropdown-3 xl-lg is--menu-link w-dropdown"><div class="dropdown-toggle is--color-white w-dropdown-toggle"><div class="icon-2 w-icon-dropdown-toggle"></div><div>MBO/HBO</div></div><nav class="dropdown-list w-dropdown-list"><div class="dropdown_wrapper"><div class="large-dropdown-wrapper v2"><div class="dropdown-card v2"><div class="block-content-v2"><h2 class="_3xl-lg hide_m">MBO</h2><div class="space-12px hide__m"></div><div class="block-line hide_m"></div><div class="space-24px"></div><div class="drop_inner__block"><div class="text__small">2-3 jaar</div><a href="/opleidingen/mbo-software-developer" class="xl-lg is--sublink">MBO Software Developer</a></div></div></div><div class="dropdown-card v2"><div class="block-content-v2"><h2 class="_3xl-lg hide_m">HBO</h2><div class="space-12px hide__m"></div><div class="block-line hide_m"></div><div class="space-24px"></div><div class="drop_inner__block"><div class="text__small">4 jaar</div><a href="/opleidingen/hbo-bachelor" class="xl-lg is--sublink">HBO Software Developer</a></div><div class="drop_inner__block"><div class="text__small"><br/>6 jaar</div><a href="/opleidingen/mhbo-software-developer" class="xl-lg is--sublink">MBO + HBO Software Developer</a></div></div></div><div class="dropdown-card v2"><div class="block-content-v2"><h2 class="_3xl-lg hide_m">Locaties</h2><div class="space-12px hide__m"></div><div class="block-line hide_m"></div><div class="space-24px"></div><div class="drop_inner__block"><div class="text__small show_m">Locaties</div><a href="/locatie/amsterdam" class="xl-lg is--sublink">Amsterdam</a><a href="/locatie/purmerend" class="xl-lg is--sublink">Purmerend</a><a href="/locatie/groningen" class="xl-lg is--sublink">Groningen</a></div></div></div></div></div></nav></div><div data-hover="true" data-delay="0" data-w-id="4108ab34-59c5-4a03-e25c-4b8be1c65a11" class="dropdown-pro xl-lg is--menu-link w-dropdown"><div class="dropdown-toggle is--color-white w-dropdown-toggle"><div class="icon-2 w-icon-dropdown-toggle"></div><div class="hide-on-desktop">Pro opleidingen</div><a href="/pro" class="xl-lg is--menu-link is--color-white hide-on-mobile w-nav-link">Pro opleidingen</a></div><nav class="dropdown-list w-dropdown-list"><div class="dropdown_wrapper v__dark"><div class="large-dropdown-wrapper v2"><div class="dropdown-card v2"><div class="block-content-v2"><h2 class="_3xl-lg text-color-white hide_m">Academy PRO</h2><div class="space-12px hide__m"></div><div class="block-line is--pro-gradient"></div><div class="space-24px"></div><div class="drop_inner__block"><div class="xl-lg text-color-white">Gegarandeerd een goede <br/>toekomst met Bit Academy PRO</div><div class="space-10px"></div><a href="/pro" class="secondary-button-large is--white w-inline-block"><div class="label__medium">Meer info</div></a></div></div></div><div class="dropdown-card v3"><div class="block-content-v3"><h2 class="_3xl-lg text-color-white hide_m">Onze opleidingen</h2><h2 class="_3xl-lg nav_mobile__header">Opleidingen</h2><div class="space-12px"></div><div class="block-line is--pro-gradient"></div><div class="space-24px"></div><div class="w-layout-grid grid"><div id="w-node-_4108ab34-59c5-4a03-e25c-4b8be1c65a33-e449c36a"><div class="drop_inner__block text-color-white"><div class="text__small">web</div><a href="/opleidingen/front-end-developer" class="xl-lg is--sublink text-color-white">Front-end Developer</a><a href="/opleidingen/back-end-developer" class="xl-lg is--sublink text-color-white">Back-end Developer</a><a href="/opleidingen/web-developer" class="xl-lg is--sublink text-color-white">Full Stack Web Developer</a></div></div><div id="w-node-_4108ab34-59c5-4a03-e25c-4b8be1c65a3d-e449c36a"><div class="drop_inner__block text-color-white"><div class="text__small">data</div><a href="/opleidingen/data-analist" class="xl-lg is--sublink text-color-white">Data Analist</a><a href="/opleidingen/data-engineer" class="xl-lg is--sublink text-color-white">Data Engineer</a><a href="/opleidingen/chat-gpt" class="xl-lg is--sublink text-color-white">ChatGPT Expert</a></div></div></div></div></div></div></div></nav></div><a href="/over-ons" aria-current="page" class="xl-lg is--menu-link is--color-white w-nav-link w--current">Manifest</a><a href="/veelgestelde-vragen" class="xl-lg is--menu-link is--color-white w-nav-link">FAQ</a></div><a href="https://jarvis.bit-academy.nl/" target="_blank" class="primary-button-small on--nav v-white mobile__hide w-inline-block"><div class="label__medium">Mijn Academy</div><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/643928a2e518640ff94d8160_shape.svg" loading="lazy" width="13" alt="" class="btn_icon on_nav"/></a><div class="text__small mobile__nav__text">Bezoek de website op je desktop om in te loggen bij Mijn Academy.</div></div></nav><div class="menu-button is--white w-nav-button"><div class="icon w-icon-nav-menu"></div></div></div><div class="menu_bg_dark"></div></div><div class="section bg-color--dark"><div class="top_menu_space"></div><div class="container--old is--hero no-overflow w-container"><div class="w-layout-grid row"><div id="w-node-_3c1178ca-8c5b-b0fe-6e46-b78257034b88-a42f001c" class="ovr_ons__content"><div class="mobile_space_24px"></div><div class="_2xl-lg">_Over ons</div><div class="space__8px"></div><h1 class="_6xl-lg is_over_ons__heading">Bit Academy<br/>Code for <span class="text-color--orange">the future</span></h1></div></div></div></div><div class="section bg-color--dark"><div class="space__40px"></div><div class="container--old w-container"><div class="w-layout-grid row"><div id="w-node-_05e643da-4858-2d32-c38b-e997ff982cf0-a42f001c"><h2 class="_3xl-lg">Terwijl de digitale wereld voortdurend verandert, blijven onze oudste instituten achter. Om nieuwe uitdagingen het hoofd te bieden, zijn nieuwe ideeën en opleidingen nodig.<br/>‍<br/>Wij geloven dat het anders kan. Het creëren van de nieuwe lichting tech-leiders gebeurt niet door saaie lezingen en het doornemen van verouderde boeken. Net zoals de wereld waarvoor we trainen, zijn we snel veranderend, digitaal en gericht op de toekomst. <br/><br/>Nieuw onderwijs voor een nieuwe wereld.</h2><div class="space-64px"></div><div><div class="label__small">Onze missie<br/>Bit Academy, 2023</div></div></div></div></div><div class="space__120px mobile_80px"></div><div class="container--old no_padding__mobile w-container"><div class="w-layout-grid row"><div id="w-node-afb0ab8d-06df-fe37-1112-910895a01411-a42f001c"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08605dfce11a0392bd9fb_Rectangle%2043.png" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1439px) 94vw, 1280px" srcset="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08605dfce11a0392bd9fb_Rectangle%2043-p-500.png 500w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08605dfce11a0392bd9fb_Rectangle%2043-p-800.png 800w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08605dfce11a0392bd9fb_Rectangle%2043-p-1080.png 1080w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08605dfce11a0392bd9fb_Rectangle%2043-p-1600.png 1600w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08605dfce11a0392bd9fb_Rectangle%2043.png 1696w" alt="" class="mobile_cover__img is--left"/></div><div id="w-node-afb0ab8d-06df-fe37-1112-910895a01413-a42f001c"><div class="space-64px mobile_24px"></div><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08605b89b613d6b4684c4_Rectangle%2042.png" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1439px) 94vw, 1280px" srcset="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08605b89b613d6b4684c4_Rectangle%2042-p-500.png 500w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08605b89b613d6b4684c4_Rectangle%2042-p-800.png 800w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08605b89b613d6b4684c4_Rectangle%2042.png 832w" alt="" class="mobile_cover__img is--right"/></div></div></div><div class="space__120px mobile_80px"></div></div><div class="section"><div class="space__120px mobile_80px"></div><div class="container--old no_padding__mobile w-container"><div class="w-layout-grid row"><div id="w-node-d7653528-6adb-ff51-8a39-78201c61a53c-a42f001c" class="mobile_padding"><h2 class="_5xl-lg">Wat maakt ons onderwijs uniek?</h2><div class="space-24px"></div><div class="text__large">Onze filosofie op onderwijs in 6 statements.</div></div></div><div class="space__40px"></div><div class="w-embed"><style>
+
+ /*General Scrollbar Styling */
+ .mobile_scrolling::-webkit-scrollbar {
+     width: 2px;
+     height:2px
+ }
+
+.mobile_scrolling::-webkit-scrollbar-track {
+     background-color: rgba(4, 4, 4, 0.1);
+     -webkit-border-radius: 20px;
+     border-radius: 20px;
+ }
+
+ .mobile_scrolling::-webkit-scrollbar-thumb {
+     -webkit-border-radius: 20px;
+     border-radius: 20px;
+     background: rgba(4, 4, 4);
+ }
+ 
+ 
+  
+ </style></div><div id="inner-slider" class="w-layout-grid row mobile_scrolling"><div id="w-node-d7653528-6adb-ff51-8a39-78201c61a544-a42f001c" class="block__non_clickable bg-orange min-280px"><div class="key_block"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/6438f8d7424aa324ea14abfb_Key%20Elevation.svg" loading="lazy" alt="" class="key_bg"/><div class="key_text__wrapper"><div class="key_text">1</div></div></div><div class="space-20px"></div><h2 class="_2xl-lg">Het beste <br/>tech-onderwijs</h2><div class="space__8px"></div><div class="text__medium">We leren je de vaardigheden waar de wereld nu en in de toekomst om vraagt.</div></div><div id="w-node-_43e154d2-8997-4c3a-5491-8836abdac544-a42f001c" class="block__non_clickable bg-orange min-280px"><div class="key_block"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/6438f8d7424aa324ea14abfb_Key%20Elevation.svg" loading="lazy" alt="" class="key_bg"/><div class="key_text__wrapper"><div class="key_text">2</div></div></div><div class="space-20px"></div><h2 class="_2xl-lg">Platform voor skills improvement</h2><div class="space__8px"></div><div>Techies die willen upskillen kiezen hun eigen leerpad op ons platform. Rookies kunnen ook kiezen voor het groepstraject.</div></div><div id="w-node-_30d1f36c-fe6d-edea-ee24-eaf3428edc85-a42f001c" class="block__non_clickable bg-orange min-280px"><div class="key_block"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/6438f8d7424aa324ea14abfb_Key%20Elevation.svg" loading="lazy" alt="" class="key_bg"/><div class="key_text__wrapper"><div class="key_text">3</div></div></div><div class="space-20px"></div><h2 class="_2xl-lg">Kick-start voor <br/>tech-carrières</h2><div class="space__8px"></div><div>We ondersteunen je bij het vinden naar een baan, bij elke stap die je zet.</div></div><div id="w-node-_548dc883-5875-164f-3051-57372c6fc7cb-a42f001c" class="block__non_clickable bg-orange min-280px"><div class="key_block"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/6438f8d7424aa324ea14abfb_Key%20Elevation.svg" loading="lazy" alt="" class="key_bg"/><div class="key_text__wrapper"><div class="key_text">4</div></div></div><div class="space-20px"></div><h2 class="_2xl-lg">We stimuleren persoonlijke groei</h2><div class="space__8px"></div><div>We laten jou persoonlijk groeien, zodat jij bedrijven kunt helpen groeien.</div></div><div id="w-node-d8c2e5bc-479a-212f-55d5-45576ab2ca43-a42f001c" class="block__non_clickable bg-orange min-280px"><div class="key_block"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/6438f8d7424aa324ea14abfb_Key%20Elevation.svg" loading="lazy" alt="" class="key_bg"/><div class="key_text__wrapper"><div class="key_text">5</div></div></div><div class="space-20px"></div><h2 class="_2xl-lg">Studenten staan centraal</h2><div class="space__8px"></div><div>Of je nu beginner bent of gevorderd, we staan klaar om je in het zadel te helpen.</div></div><div id="w-node-_121f2d0b-1f5e-a8e3-30cb-36b31f17803c-a42f001c" class="block__non_clickable bg-orange min-280px"><div class="key_block"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/6438f8d7424aa324ea14abfb_Key%20Elevation.svg" loading="lazy" alt="" class="key_bg"/><div class="key_text__wrapper"><div class="key_text">6</div></div></div><div class="space-20px"></div><h2 class="_2xl-lg">Wij verbinden mensen</h2><div class="space__8px"></div><div>Al 3000+ community-leden (junior, medior, en senior techies).</div></div></div></div><div class="space_blocker"></div><div class="space_blocker is-right_button__wrapper"><a id="scroll-next-btn" href="#" class="scroll-next-btn w-inline-block"><div data-w-id="870099a5-3082-98a1-a14d-71fb1cfc1f3d" class="next-button no-padding"><div class="team_arrow__img w-embed"><svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.49995 0.800195L16.7 9.0002L8.49995 17.2002L6.59995 15.3502L11.625 10.3252L0.299949 10.3252L0.299949 7.6752L11.625 7.6752L6.59995 2.6502L8.49995 0.800195Z" fill="currentcolor"/>
+</svg></div><div class="button_overlay"></div></div></a></div></div><div class="section"><div class="space__120px mobile_80px"></div><div class="container--old no_padding__mobile w-container"><div class="w-layout-grid row"><div id="w-node-_89aba26e-7ac3-a030-c365-6d2c5b96be0b-a42f001c"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c086c85c3d7374ad5565c6_Rectangle%2042%20(1).png" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1439px) 94vw, 1280px" srcset="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c086c85c3d7374ad5565c6_Rectangle%2042%20(1)-p-500.png 500w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c086c85c3d7374ad5565c6_Rectangle%2042%20(1).png 624w" alt="" class="mobile_cover__img is--left"/></div><div id="w-node-_89aba26e-7ac3-a030-c365-6d2c5b96be0d-a42f001c"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08346b8b5175ea0874d4b_Rectangle%2043.png" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1439px) 94vw, 1280px" srcset="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08346b8b5175ea0874d4b_Rectangle%2043-p-500.png 500w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08346b8b5175ea0874d4b_Rectangle%2043-p-800.png 800w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08346b8b5175ea0874d4b_Rectangle%2043-p-1080.png 1080w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08346b8b5175ea0874d4b_Rectangle%2043-p-1600.png 1600w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08346b8b5175ea0874d4b_Rectangle%2043.png 1696w" alt="" class="mobile_cover__img is--right"/></div></div></div><div class="container--old w-container"><div class="space__16px"></div><div class="w-layout-grid row"><div id="w-node-_148f5070-2adf-b093-ddc7-141a3a6d88f6-a42f001c" class="number_block"><h2 class="_5xl-lg">9.2</h2><div class="space__8px"></div><div class="space-12px"></div><div class="block-line"></div><div class="space-12px"></div><div class="text__medium">Cijfer voor onze coaches</div></div><div id="w-node-_148f5070-2adf-b093-ddc7-141a3a6d88ff-a42f001c" class="number_block"><h2 class="_5xl-lg">3.000+</h2><div class="space__8px"></div><div class="space-12px"></div><div class="block-line"></div><div class="space-12px"></div><div class="text__medium">Alumni aan het werk</div></div><div id="w-node-_148f5070-2adf-b093-ddc7-141a3a6d8908-a42f001c" class="number_block"><h2 class="_5xl-lg">250+</h2><div class="space__8px"></div><div class="space-12px"></div><div class="block-line"></div><div class="space-12px"></div><div class="text__medium">Bedrijven die meedoen</div></div></div></div></div><div class="section"><div class="space__120px"></div><div class="container--old w-container"><div class="w-layout-grid row"><div id="w-node-e6a1a08b-6148-58d1-43b4-01f87873f101-a42f001c"><div class="mobile_space_40px"></div><h2 class="signup__heading">Wij geloven in<br/>nieuw onderwijs</h2><div class="space__16px"></div><div class="text__medium">Bit Academy is de beste ICT-opleiding van Nederland. Wat ons verder uniek maakt? Wij zijn zelf programmeurs en hebben zelf de code geschreven die jou code leert schrijven. <br/><br/>Aan het eind van de rit moet jij klaar kunnen staan voor de wereld van nu én de toekomst. Geef jouw tech-carrière dus een kick-start met een van deze ICT-opleidingen van Bit Academy.</div><div class="space__40px"></div><div class="button-wrapper"><a href="/pro" class="primary-button-large is--orange w-inline-block"><div class="label__medium">Ontdek onze opleidingen</div></a></div></div><div id="w-node-e6a1a08b-6148-58d1-43b4-01f87873f112-a42f001c" class="media_block"><div class="media_div"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08520bde305d1415fddf7_Rectangle%2022.png" loading="lazy" sizes="(max-width: 479px) 87vw, (max-width: 767px) 91vw, (max-width: 991px) 93vw, (max-width: 1439px) 92vw, 1226px" srcset="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08520bde305d1415fddf7_Rectangle%2022-p-500.png 500w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08520bde305d1415fddf7_Rectangle%2022-p-800.png 800w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08520bde305d1415fddf7_Rectangle%2022-p-1080.png 1080w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08520bde305d1415fddf7_Rectangle%2022.png 1226w" alt="" class="media_thumbnail"/><div class="media_overlay"><a href="#" data-w-id="e6a1a08b-6148-58d1-43b4-01f87873f116" class="play_button w-inline-block w-lightbox"><div class="html-embed-29 w-embed"><svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.524902 15.8499L0.524902 0.149902L12.8999 7.9999L0.524902 15.8499ZM3.1749 11.0249L7.9249 7.9999L3.1749 4.9749V11.0249Z" fill="currentcolor"/>
+</svg></div><div class="button_overlay"></div><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "url": "https://www.youtube.com/watch?v=WdDgnHGMPus",
+      "originalUrl": "https://www.youtube.com/watch?v=WdDgnHGMPus",
+      "width": 940,
+      "height": 528,
+      "thumbnailUrl": "https://i.ytimg.com/vi/WdDgnHGMPus/hqdefault.jpg",
+      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FWdDgnHGMPus%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DWdDgnHGMPus&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FWdDgnHGMPus%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
+      "type": "video"
+    }
+  ],
+  "group": ""
+}</script></a><div class="space-12px"></div><h4 class="xl-sm">Dankzij de gratis programmeer opleiding een nieuwe baan</h4><div class="space-12px"></div><div class="label__large">Bit Academy</div></div></div></div></div></div></div><div class="container--old w-container"><div class="w-layout-grid row"><div id="w-node-_1a6ca3d5-a88c-83b5-f281-9cae2b7bc14c-a42f001c"><h2 class="signup__heading">Waar je ons kan vinden</h2><div class="space__8px"></div><div>Het is heel makkelijk om ons te bereiken. We staan open voor al je vragen en opmerkingen.</div></div></div><div class="space__40px"></div><div class="w-layout-grid row align_top"><div id="w-node-_1a6ca3d5-a88c-83b5-f281-9cae2b7bc163-a42f001c" class="block"><h2 class="_2xl-lg">Mail</h2><div class="space__8px"></div><div class="space-12px"></div><div class="text__medium">Vragen mag altijd. Je krijgt zo snel mogelijk bericht van ons terug!<br/><br/><a href="mailto:info@bit-academy.nl" class="contact_link">info@bit-academy.nl<br/>‍</a></div></div><div id="w-node-_1a6ca3d5-a88c-83b5-f281-9cae2b7bc170-a42f001c" class="block"><h2 class="_2xl-lg">Telefoon</h2><div class="space__8px"></div><div class="space-12px"></div><div class="text__medium">Telefonisch zijn wij bereikbaar op werkdagen tussen 09:00 en 17:00.<br/><br/><a href="tel:0202470347" class="contact_link">020 247 0347<br/>‍</a></div></div></div><div class="space__120px mobile_80px"></div></div><div class="section"><div class="container--old w-container"><div class="w-layout-grid row"><div id="w-node-_8db97e49-e1ba-b8a1-3b95-7c1b344ab0e4-a42f001c"><h2 class="_5xl-lg">We zijn super digitaal, maar bestaan ook in het echt</h2></div></div><div class="w-layout-grid row"><div id="w-node-_76c6b53b-af4c-e0c9-2091-ff93a2da9de1-a42f001c"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/643a1bf8458127d4bbc51b15_Rectangle%2022%20(4).webp" loading="lazy" sizes="(max-width: 479px) 92vw, (max-width: 767px) 94vw, (max-width: 991px) 95vw, (max-width: 1439px) 94vw, 1280px" srcset="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/643a1bf8458127d4bbc51b15_Rectangle%2022%20(4)-p-500.webp 500w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/643a1bf8458127d4bbc51b15_Rectangle%2022%20(4).webp 622w" alt="Locatie van Bit Academy in Amsterdam" class="bit-img"/><div class="space-24px"></div><h3 class="_2xl-lg">Amsterdam</h3><div class="space__8px"></div><div>Kon. Wilhelminaplein 1, 1062 HG</div><div class="space-24px"></div><a href="/locatie/amsterdam" class="arrow_link w-inline-block"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/643a165f17fe0c8982a436a9_shape.svg" loading="lazy" alt=""/></a></div><div id="w-node-a5e2929e-75a8-c3f2-d083-d5726e6dd0d5-a42f001c"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/64551648c8d96d42a31aaf17_Event-1-2.webp" loading="lazy" sizes="(max-width: 479px) 92vw, (max-width: 767px) 94vw, (max-width: 991px) 95vw, (max-width: 1439px) 94vw, 1280px" srcset="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/64551648c8d96d42a31aaf17_Event-1-2-p-500.webp 500w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/64551648c8d96d42a31aaf17_Event-1-2-p-800.webp 800w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/64551648c8d96d42a31aaf17_Event-1-2-p-1080.webp 1080w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/64551648c8d96d42a31aaf17_Event-1-2-p-1600.webp 1600w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/64551648c8d96d42a31aaf17_Event-1-2-p-2000.webp 2000w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/64551648c8d96d42a31aaf17_Event-1-2-p-2600.webp 2600w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/64551648c8d96d42a31aaf17_Event-1-2-p-3200.webp 3200w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/64551648c8d96d42a31aaf17_Event-1-2.webp 4732w" alt="" class="bit-img"/><div class="space-24px"></div><h3 class="_2xl-lg">Purmerend</h3><div class="space__8px"></div><div>Spinnekop 2-3, 1444 GN</div><div class="space-24px"></div><a href="/locatie/purmerend" class="arrow_link w-inline-block"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/643a165f17fe0c8982a436a9_shape.svg" loading="lazy" alt=""/></a></div><div id="w-node-_224289bd-bfb1-c3ba-6dc3-0ccc4bbbde0b-a42f001c"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/645516c70aa34d3f9eb9f369_Westersingel.webp" loading="lazy" sizes="(max-width: 479px) 92vw, (max-width: 767px) 94vw, (max-width: 991px) 95vw, (max-width: 1439px) 94vw, 1280px" srcset="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/645516c70aa34d3f9eb9f369_Westersingel-p-500.webp 500w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/645516c70aa34d3f9eb9f369_Westersingel-p-800.webp 800w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/645516c70aa34d3f9eb9f369_Westersingel-p-1080.webp 1080w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/645516c70aa34d3f9eb9f369_Westersingel-p-1600.webp 1600w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/645516c70aa34d3f9eb9f369_Westersingel-p-2000.webp 2000w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/645516c70aa34d3f9eb9f369_Westersingel.webp 2592w" alt="" class="bit-img"/><div class="space-24px"></div><h3 class="_2xl-lg">Groningen</h3><div class="space__8px"></div><div>Muntinglaan 3, 9727 JT</div><div class="space-24px"></div><a href="/locatie/groningen" class="arrow_link w-inline-block"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/643a165f17fe0c8982a436a9_shape.svg" loading="lazy" alt=""/></a></div></div></div><div class="space__40px"></div></div><div class="section"><div class="space__120px"></div><div class="container--old no_padding__mobile w-container"><div class="cta_block"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08712358b936c9cb5afa8_Rectangle%2022.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 94vw, (max-width: 991px) 35vw, (max-width: 1439px) 33vw, 440px" srcset="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08712358b936c9cb5afa8_Rectangle%2022-p-500.png 500w, https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/65c08712358b936c9cb5afa8_Rectangle%2022.png 660w" alt="" class="cta_img"/><div class="cta_content"><div class="mobile_space_40px"></div><h2 class="signup__heading">Klaar voor de volgende<br/>stap in je carriere?</h2><div class="mobile_space_40px"></div><div class="space__40px"></div><div class="div-block-3"><a href="/opleidingen/hbo-bachelor" class="block w-inline-block"><div class="label__small">Bachelor</div><h2 class="_4xl-sm">HBO opleiding</h2><div class="space__8px"></div><div class="space__16px"></div><div class="block-line _4x_orange"></div><div class="space__16px"></div><div class="course_arrow__wrapper"><div class="text__small opacity-60">Behaal nu jouw bachelor diploma</div><div class="arrow_icon w-embed"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.99995 0.800195L17.2 9.0002L8.99995 17.2002L7.09995 15.3502L12.125 10.3252L0.799949 10.3252L0.799949 7.6752L12.125 7.6752L7.09995 2.6502L8.99995 0.800195Z" fill="currentcolor"/>
+</svg></div></div></a><div id="w-node-_808b6e05-3c97-e810-b5df-d4c963f920ea-63f920d0" class="space__16px"></div><a href="/opleidingen/mbo-software-developer" class="block v-dark text-white w-inline-block"><div class="label__small">Fulltime</div><h2 class="_4xl-sm">MBO opleiding</h2><div class="space__8px"></div><div class="space__16px"></div><div class="block-line _4x_orange"></div><div class="space__16px"></div><div class="course_arrow__wrapper"><div class="text__small opacity-60">Flexibel naar jouw doelen</div><div class="arrow_icon w-embed"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.99995 0.800195L17.2 9.0002L8.99995 17.2002L7.09995 15.3502L12.125 10.3252L0.799949 10.3252L0.799949 7.6752L12.125 7.6752L7.09995 2.6502L8.99995 0.800195Z" fill="currentcolor"/>
+</svg></div></div></a></div></div></div></div><div class="space__80px null"></div></div><div class="section is--footer-old"><div class="container--old w-container"><div class="w-layout-grid row"><div id="w-node-_018cbc07-29f3-410f-9f1f-149bb523ef2c-b523ef29"><a href="#" class="w-inline-block"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/6438bba056fc5e5d24b686db_BA%20Logo%20Primary.svg" loading="lazy" alt="" class="footer_logo-old"/><div class="space__16px"></div></a></div><div id="w-node-_018cbc07-29f3-410f-9f1f-149bb523ef32-b523ef29" class="footer_col"><h3 class="xl-lg">Bit Academy</h3><a href="/over-ons" aria-current="page" class="footer-link w--current">Over ons</a><a href="/veelgestelde-vragen" class="footer-link">Veelgestelde vragen</a><a href="mailto:info@bit-academy.nl" class="footer-link">Contact</a><a href="https://drive.google.com/file/d/1bml6QSYKm35BmTvZsLTs8WHkYaFG_nzd/view" target="_blank" class="footer-link">Privacy Policy</a><a href="https://www.nrto.nl/kwaliteit/algemene-voorwaarden/" target="_blank" class="footer-link">NRTO algemene voorwaarden</a><a href="https://www.nrto.nl/kwaliteit/gedragscode/" target="_blank" class="footer-link">NRTO gedragscode</a><div class="space__8px"></div></div><div id="w-node-_018cbc07-29f3-410f-9f1f-149bb523ef42-b523ef29" class="footer_col"><h3 class="xl-lg">MBO Opleidingen</h3><a href="/opleidingen/mbo-software-developer" class="footer-link">MBO Software Developer</a><div class="space__8px"></div><h3 class="xl-lg">HBO Opleidingen</h3><a href="/opleidingen/hbo-bachelor" class="footer-link">HBO Software Developer</a><div class="space__8px"></div></div><div id="w-node-_018cbc07-29f3-410f-9f1f-149bb523ef4f-b523ef29" class="footer_col"><h3 class="xl-lg">Pro Opleidingen</h3><a href="/opleidingen/front-end-developer" class="footer-link">Frontend Web Developer</a><a href="/opleidingen/back-end-developer" class="footer-link">Backend Web Developer</a><a href="/opleidingen/web-developer" class="footer-link">Full Stack Developer</a><a href="/opleidingen/data-analist" class="footer-link">Data Analist</a><a href="/opleidingen/data-engineer" class="footer-link">Data Engineer</a><a href="/opleidingen/chat-gpt" class="footer-link">ChatGPT Expert</a><div class="space__8px"></div><div class="space__8px"></div></div></div><div id="w-node-_018cbc07-29f3-410f-9f1f-149bb523ef64-b523ef29" class="footer_logos_block"><h3 class="xl-sm">Erkende kwaliteit</h3><div class="text__small opacity-60">© 2023 Bit Academy</div><div class="space__16px"></div><div class="badges_wrapper"><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/6438bdf4fbc7d41ea8f06e34_Vector%20(1).svg" loading="lazy" alt="" class="footer_badge__img"/><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/6438bdf4114dbda091bbf1d7_Clip%20path%20group%20(1).svg" loading="lazy" alt="" class="footer_badge__img"/><img src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/6438bdf4abc1f59c860a9fd8_Clip%20path%20group%20(2).svg" loading="lazy" alt="" class="footer_badge__img"/></div></div></div><div class="dropdown__overlay"></div></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6433e2279fd61134d70bd465" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/6433e2279fd61134d70bd465/js/webflow.f22a26668.js" type="text/javascript"></script><!-- CUSTOM SELECT FIELD --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+
+<script>
+	$(document).ready(function() {
+  	$('select').niceSelect();
+	});
+</script>
+
+<!-- GSAP Animations --> 
+<script>
+// Split the text
+const splitText = new SplitType(".line_reveal__text");
+// Define text divisions
+let textDivision = "lines"; // also try 'words' or 'lines'
+const st1=splitText[textDivision];
+         
+$(st1).wrap('<div class="line_wrap" />');
+
+  // Split the text
+const splitText2 = new SplitType(".line_reveal__subtext");
+// Define text divisions
+let textDivision2 = "lines"; // also try 'words' or 'lines'
+const st2=splitText2[textDivision2];
+         
+$(st2).wrap('<div class="line_wrap" />');
+
+//gsap.registerPlugin(ScrollTrigger);
+
+/* Animate
+gsap.from(".is-team", {
+  
+  opacity: 0,
+  y: 60px,
+  duration:1.2,
+
+  ease: "power4.inOut"
+  
+}); */
+  
+  // main heading animations
+  
+  var anni_containers = gsap.utils.toArray(".line_reveal__text");
+
+anni_containers.forEach(function (anni_container) {
+  gsap.from(
+    anni_container.querySelectorAll(".line"),
+    
+    {
+      
+      scrollTrigger: anni_container,
+      opacity: 0,
+  	  y: "60%",
+	  duration:1,
+	  stagger: 0.1,
+	  ease: "power4.inOut"
+       
+    }
+  );
+});
+  
+  // sub text animations 
+   var anni_containers2 = gsap.utils.toArray(".line_reveal__subtext");
+
+anni_containers2.forEach(function (anni_container2) {
+  gsap.from(
+    anni_container2.querySelectorAll(".line"),
+    
+    {
+      
+      scrollTrigger: anni_container2,
+      delay:0.2,
+      opacity: 0,
+  	  y: "60%",
+	  duration:1,
+	  stagger: 0,
+	  ease: "power4.inOut"
+       
+    }
+  );
+}); 
+</script>
+
+<!-- smooth scroll -->
+
+<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@0.2.28/bundled/lenis.js"></script> 
+
+<script> 
+const lenis = new Lenis({ 
+duration: 0.7, 
+easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // https://www.desmos.com/calculator/brs54l4xou 
+direction: 'vertical', // vertical, horizontal 
+gestureDirection: 'vertical', // vertical, horizontal, both 
+smooth: true, 
+mouseMultiplier: 1, 
+smoothTouch: false, 
+touchMultiplier: 2, 
+infinite: false, 
+}) 
+
+//get scroll value 
+lenis.on('scroll', ({ scroll, limit, velocity, direction, progress }) => { console.log({ scroll, limit, velocity, direction, progress }) 
+}) 
+
+function raf(time) { 
+lenis.raf(time) 
+requestAnimationFrame(raf) 
+} 
+
+requestAnimationFrame(raf) 
+</script><script>
+const sBtnLeft = document.querySelector(".w-slider-arrow-left")
+const sBtnRight = document.querySelector(".team_arrow_right")
+const slides = document.querySelectorAll(".team_slide")
+const progressBar = document.querySelector(".progress")
+
+
+// length of progress bar (%)
+const chunk = (100 / slides.length);
+
+// get current slide (in view)  
+function currentSlide() {
+    // set timeout to wait for change (50ms is fine)
+    setTimeout(()=>{
+    slides.forEach((slide,idx)=>{
+        if (slide.classList.contains("w-slide") && !slide.hasAttribute("aria-hidden")) {
+            // start array with num 1 
+            const slideNum = idx + 1;
+
+            // expand length of progress bar 
+            const w = `${chunk * slideNum}`;
+            progressBar.style.width = `${w}%`;
+            progressBar.style.transition = "width 0.3s";
+
+        }
+    })
+    }, 50)
+}
+// set progress bar init length
+setTimeout(()=>{
+    currentSlide()
+}
+, 50)
+
+// Listeners
+sBtnLeft.addEventListener("click", currentSlide)
+sBtnRight.addEventListener("click", currentSlide)
+</script>
+
+
+<script>
+//first slider
+ const buttonRight = document.getElementById('scroll-next-btn');
+ // const buttonLeft = document.getElementById('slideLeft');
+
+    buttonRight.onclick = function () {
+    //  document.getElementById('inner-slider').scrollLeft += 230;
+    $('#inner-slider').animate( { scrollLeft: '+=280' }, 800);
+  //  $("#slideLeft").css("display", "block");
+    };
+/*buttonLeft.onclick = function () {
+    //  document.getElementById('container').scrollLeft -= 20;
+       $('#inner-slider').animate( { scrollLeft: '-=280' }, 800);
+    };*/
+
+</script>
+</body></html>
